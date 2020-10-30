@@ -1,0 +1,14 @@
+# ia2
+
+Author:Jackson Edwards
+Interpreter 2 is an extension of a previous assignment iterpreter 1.
+We are supposed to expand ia1 to add more functionality to it. 
+This should include relationship operators, if then/else statements,
+while loops, block statements and  read and write. 
+
+#Usage 
+use command javac *.java to compile all the java files. Then the
+main is in interpreter.java. The test cases that I have made all 
+pass but they have exception in thead message pring when some of 
+them run. They still pass and this doesnt happen when run directly
+from the console. Not sure how to fix this or if this is even a problem. 
