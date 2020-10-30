@@ -1,0 +1,30 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Debug (Launch) - Current File",
+            "request": "launch",
+            "args" : "${command:SpecifyProgramArgs}",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Interpreter<ia2_19a8844c>",
+            "request": "launch",
+            "mainClass": "Interpreter",
+            "args" : "${command:SpecifyProgramArgs}",
+            "projectName": "ia2_19a8844c"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Scanner<ia2_19a8844c>",
+            "request": "launch",
+            "mainClass": "Scanner",
+            "projectName": "ia2_19a8844c"
+        }
+    ]
+}
